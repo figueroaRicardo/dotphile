@@ -1,6 +1,7 @@
 [user]
 	name = figueroaRicardo
 	email = 41128440+figueroaRicardo@users.noreply.github.com
+	signingkey = 6F4845F02E832107
 [help]
 
 	# Automatically correct and execute mistyped commands
@@ -8,3 +9,7 @@
 [core]
 	excludesfile = ~/.gitignore
 	
+[commit]
+	gpgsign = true
+
+
