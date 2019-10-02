@@ -1,0 +1,10 @@
+[user]
+	name = figueroaRicardo
+	email = 41128440+figueroaRicardo@users.noreply.github.com
+[help]
+
+	# Automatically correct and execute mistyped commands
+	autocorrect = 1
+[core]
+	excludesfile = ~/.gitignore
+	
