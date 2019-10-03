@@ -17,6 +17,7 @@ brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
+#brew cask install adoptopenjdk11
 brew cask install gpg-suite
 for formulae in `cat ./misc/brew.list`; do
     brew install $formulae
