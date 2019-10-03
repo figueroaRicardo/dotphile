@@ -2,7 +2,7 @@
 
 # Change directory to location of the script
 cd "$(dirname "$0")"
-source ./lib/echos.sh
+source ./lib/echos
 
 
 # Display logo
