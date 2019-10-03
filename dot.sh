@@ -2,6 +2,7 @@
 
 # Change directory to location of the script
 cd "$(dirname "$0")"
+source ./lib/echos.sh
 
 
 # Display logo
@@ -12,7 +13,6 @@ echo -e "\033[38;5;255m\033[48;5;234m\033[1m                           \033[0m\n
 
 if [ "$(uname)" == "Darwin" ]; then
 	read -p  "Setting up a new mac?" -n 1;
-	echo ""
 	if [[ $REPLAY =~ ^[Yy]$ ]]; then
 		source ./newmac
 	fi
